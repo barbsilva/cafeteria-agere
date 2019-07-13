@@ -1,15 +1,101 @@
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=PT+Mono|Roboto:300&display=swap" rel="stylesheet">
-    <title>Cafetería Agere</title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Mono|Roboto:300&display=swap" rel="stylesheet">
+  <title>Cafetería Agere</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <a class="navbar-brand" href="#"> <img src="assets/images/logo.png" width="30%" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Acerca de <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tienda</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <button type="button" class="btn nav__btn--iniciar btn-outline-secondary m-4 rounded-0">Iniciar Sesión</button>
+        <button type="button" class="btn nav__btn--registrate btn-success border-0 rounded-0 mr-5">Registrate</button>
+      </form>
+    </div>
+  </nav>
+
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col header__father">
+          <img src="assets/images/img-1.png" alt="">
+
+          <!--cajas textos-->
+          <div class="header__box">
+            <div class="header__box--50 p-3">
+              <h3>+50</h3>
+              <p>Variedades de
+                <p>café</p>
+            </div>
+            <div class="header__box--20 mr-4">
+              <h3>+20</h3>
+              <p>Países
+                <p>diferentes</p>
+            </div>
+            <div class="header__box--1000 mr-4">
+              <h3>+1000</h3>
+              <p>Accesorios para</p>
+              <p>hacer el mejor café</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col header__father2 pl-5 pt-4">
+          <h1 class="header__title">Café Agere</h1>
+          <p class="header__subtitle">Coffe Shop</p>
+        </div>
+
+        <!--cajas colores-->
+        <div class="header__cuadrado--orange"></div>
+        <div class="header__cuadrado--yellow"></div>
+        <div class="header__arrow">
+          <img src="assets/images/arrow-pointing-to-right.png" width="20%" alt="">
+        </div>
+      </div>
+  </header>
+
+  <section class="section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col p-5 section__father">
+          <h2>Ven a Conocernos</h2>
+          <p class="section__text">Disfruta de una gran experiencia tomando un
+            café o un té dentro de nuestra tienda o si prefieres puedes
+            comprar en línea nuestros cafés para disfrutarlos en casa.</p>
+        </div>
+        <div class="col">
+          <div class="section__rectangulo--blue"></div>
+          <div class="section__maps">
+            <img src="assets/images/img-4.png" width="400px" alt="">
+          </div>
+          <div class="section__coffee">
+            <img src="assets/images/img-3.png" width="85px" alt="">
+          </div>
+          <div class="section__coffee_machine">
+            <img src="assets/images/img-2.png" width="380px" height="260px" alt="">
+          </div>
+        </div>
+      </div>
 
 
 
@@ -18,15 +104,22 @@
 
 
 
+    </div>
+  </section>
 
-    <!--JQuery sin slim-->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
-    <!--Popper JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
-    <!--Bootstrap JS-->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-  </body>
+
+  <!--JQuery sin slim-->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <!--Popper JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+  <!--Bootstrap JS-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
 </html>
